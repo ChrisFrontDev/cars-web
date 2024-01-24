@@ -1,15 +1,14 @@
-import { Button } from '@mui/material';
+import { BrowserRouter } from "react-router-dom"
 
-function App() {
+import { AppRoutes } from "./routes"
+
+export default function App() {
   return (
-    <>
-      <h1>hello world</h1>
-      <Button variant="contained">Hello World</Button>
-    </>
-  );
+    <BrowserRouter>
+      <AppRoutes />
+    </BrowserRouter>
+  )
 }
-
-export default App;
 
 //  TODO: Add a new component to display a list of cars
 // TODO: Add a new component to display a single car
