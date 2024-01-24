@@ -1,5 +1,6 @@
-import { Route, Routes } from "react-router-dom"
-import CarList from "./pages/cars/list"
+import { Route, Routes } from 'react-router-dom';
+
+import CarList from './pages/cars/list-cars/list';
 
 export function AppRoutes() {
   return (
@@ -8,5 +9,5 @@ export function AppRoutes() {
         <Route path="/cars" element={<CarList />} />
       </Route>
     </Routes>
-  )
+  );
 }
