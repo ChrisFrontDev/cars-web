@@ -1,13 +1,13 @@
-import { DataGrid, GridColDef, GridValidRowModel } from "@mui/x-data-grid"
+import { DataGrid, GridColDef, GridValidRowModel } from '@mui/x-data-grid';
 
 interface DataTableProps {
-  columns: GridColDef[]
-  rows: GridValidRowModel[]
+  columns: GridColDef[];
+  rows: GridValidRowModel[];
 }
 
 export default function DataTable({ columns, rows }: DataTableProps) {
   return (
-    <div style={{ maxHeight: "100%", width: "100%" }}>
+    <div style={{ maxHeight: '100%', width: '100%' }}>
       <DataGrid
         rows={rows}
         columns={columns}
@@ -20,5 +20,5 @@ export default function DataTable({ columns, rows }: DataTableProps) {
         disableRowSelectionOnClick
       />
     </div>
-  )
+  );
 }

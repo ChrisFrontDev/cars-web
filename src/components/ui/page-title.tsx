@@ -1,14 +1,10 @@
 import { Typography } from '@mui/material';
 
 interface IPageTitleProps {
-  title: string
+  title: string;
 }
 
 const PageTitle = ({ title }: IPageTitleProps) => {
-  return (
-    <Typography variant="h5">
-      {title}
-    </Typography>
-  );
+  return <Typography variant="h5">{title}</Typography>;
 };
 export default PageTitle;
