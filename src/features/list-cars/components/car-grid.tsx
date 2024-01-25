@@ -3,8 +3,8 @@ import { IconButton, Stack } from '@mui/material';
 import { GridColDef, GridRenderCellParams } from '@mui/x-data-grid';
 import React from 'react';
 
-import DataTable from '../../../../components/ui/data-table';
-import { Car } from '../../types/car';
+import DataTable from '../../../components/ui/data-table';
+import { Car } from '../../../types/car';
 
 interface Props {
   items: Car[];

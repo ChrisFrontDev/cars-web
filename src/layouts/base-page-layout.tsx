@@ -3,8 +3,8 @@ import { Box, Button, Paper, Stack } from '@mui/material';
 import React from 'react';
 import { Link as RouterLink } from 'react-router-dom';
 
-import MyBreadcrumbs from '../../../components/ui/breadcrumb';
-import PageTitle from '../../../components/ui/page-title';
+import MyBreadcrumbs from '../components/ui/breadcrumb';
+import PageTitle from '../components/ui/page-title';
 
 interface IBasePageLayoutProps {
   children: React.ReactNode;
