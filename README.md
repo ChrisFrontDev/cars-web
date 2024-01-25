@@ -16,10 +16,10 @@ To get started with the Car Management Frontend, follow these steps:
 
 This frontend application includes the following features:
 
-- Manage a list of cars
+- View a list of cars
 - Add new cars
-- Edit existing car details
-- Delete cars
+- Delete cars (todo)
+- edit cars (todo)
 
 ## Technologies Used
 
