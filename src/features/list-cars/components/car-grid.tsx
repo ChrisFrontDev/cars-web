@@ -1,4 +1,4 @@
-import { Description } from '@mui/icons-material';
+import Description from '@mui/icons-material/Description';
 import { IconButton, Stack } from '@mui/material';
 import { GridColDef, GridRenderCellParams } from '@mui/x-data-grid';
 import React from 'react';
